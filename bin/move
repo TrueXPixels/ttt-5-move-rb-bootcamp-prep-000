@@ -12,6 +12,8 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 # Display Board
 display_board(board)
+
+# Request Input
 puts "Where would you like to go?"
 input = gets.strip
 input = input_to_index input
