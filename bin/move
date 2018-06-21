@@ -6,6 +6,8 @@ require_relative '../lib/move.rb'
 
 # Welcome Message
 puts "Welcome to Tic Tac Toe!"
+
+# Declare Board
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 display_board(board)
 puts "Where would you like to go?"
