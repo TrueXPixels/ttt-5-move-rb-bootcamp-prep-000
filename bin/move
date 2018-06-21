@@ -21,5 +21,7 @@ input = gets.strip
 
 # Update Input Variable
 input = input_to_index input
+
+# Run Board Movie
 move(board, input)
 display_board(board)
