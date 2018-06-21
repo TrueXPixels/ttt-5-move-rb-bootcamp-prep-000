@@ -15,7 +15,11 @@ display_board(board)
 
 # Output Request Question
 puts "Where would you like to go?"
+
+# Await Response
 input = gets.strip
+
+# Update Input Variable
 input = input_to_index input
 move(board, input)
 display_board(board)
